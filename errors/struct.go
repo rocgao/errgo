@@ -96,3 +96,8 @@ func (e *errorInfo) Location() (file string, line int) {
 	}
 	return "", 0
 }
+
+// Unwrap implements Unwrap
+func (e *errorInfo) Unwrap() error {
+	return e.underlying
+}
