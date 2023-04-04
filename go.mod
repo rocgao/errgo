@@ -1,1 +1,1 @@
-module gopkg.in/errgo.v2
+module github.com/rocgao/errgo/v2
