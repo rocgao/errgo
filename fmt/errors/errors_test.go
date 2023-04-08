@@ -5,12 +5,11 @@ package errors_test
 
 import (
 	"fmt"
+	"github.com/rocgao/errgo/v2/fmt/errors"
 	"io/ioutil"
 	"runtime"
 	"strings"
 	"testing"
-
-	"gopkg.in/errgo.v2/fmt/errors"
 )
 
 func TestNewf(t *testing.T) {

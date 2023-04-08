@@ -5,8 +5,7 @@ package errors
 
 import (
 	"fmt"
-
-	"gopkg.in/errgo.v2/errors"
+	"github.com/rocgao/errgo/v2/errors"
 )
 
 // Newf is like New except it formats the message with a fmt
